@@ -4,7 +4,7 @@ const HomePage = () => {
       className="hero min-h-screen"
       style={{
         backgroundImage:
-          "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+          "url(src/assets/images/breakfast.jpg)",
       }}
     >
       <div className="hero-overlay"></div>
