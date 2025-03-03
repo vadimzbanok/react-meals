@@ -18,6 +18,8 @@ function App() {
             <Route path="/meals" element={<MealsPage />} />
             {/*
           - TODO :Route mit Parameter Einstellung */}
+
+          <Route path="/meals/:id" element={<MealsDetails />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>

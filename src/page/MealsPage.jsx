@@ -24,7 +24,7 @@ const MealsPage = () => {
       {meals.length > 0 ? (
         meals.map((food) => (
           <>
-            <p key={food.idMeal}>{food.strMeal}</p> <CardItemComponent food={food} />{" "}
+            <CardItemComponent key={food.idMeal} food={food} />{" "}
           </>
         ))
       ) : (

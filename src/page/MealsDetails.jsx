@@ -1,6 +1,12 @@
+import { useParams, Link } from "react-router-dom";
+
 const MealsDetails = () => {
-  return (
-    <div>MealsDetails</div>
-  )
-}
-export default MealsDetails
+  const { id } = useParams(); //destructuring id from useParams
+  return <div>MealsDetails für {id}
+  <button className="btn btn-primary">
+    <br />
+    <Link to="/meals">Back</Link>
+  </button>
+  </div>
+};
+export default MealsDetails;
