@@ -1,10 +1,10 @@
+import image from "../assets/images/food-366875_640.jpg";
 const HomePage = () => {
   return (
     <div
       className="hero min-h-screen"
       style={{
-        backgroundImage:
-          "url(src/assets/images/breakfast.jpg)",
+        backgroundImage: `url(${image})`,
       }}
     >
       <div className="hero-overlay"></div>
